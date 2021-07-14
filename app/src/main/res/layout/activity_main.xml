@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/top_image_view_id"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:contentDescription="@string/s97_image"
+        android:scaleType="fitCenter"
+        android:src="@drawable/flight01" />
+
+    <TextView
+        android:id="@+id/title_text_view_id"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="start"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:text="@string/s_97_raider"
+        android:textStyle="bold|normal"
+        android:textColor="@android:color/black"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/description_title_text1_view_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/top_image_view_id"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:text="@string/precise_low_speed_handing"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/precise_low_speed_handing_view_id"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/description_title_text1_view_id"
+        android:scaleType="fitCenter"
+        android:src="@drawable/preciselowspeed"
+        android:contentDescription="@string/model_icon_1" />
+
+    <TextView
+        android:id="@+id/description_text_view_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/precise_low_speed_handing_view_id"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:text="@string/raider_s_fly_by_wire_control_and_rigid_main_rotor_enables_high_agility_at_low_speed"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="normal" />
+
+</RelativeLayout>

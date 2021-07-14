@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="s97_image">S97 image</string>
+    <string name="todo">TODO</string>
+    <string name="s_97_raider">S-97 RAIDER</string>
+    <string name="precise_low_speed_handing">Precise Low Speed Handing</string>
+    <string name="model_icon_1">model_icon_1</string>
+    <string name="raider_s_fly_by_wire_control_and_rigid_main_rotor_enables_high_agility_at_low_speed">RAIDER’s fly-by-wire control and rigid main rotor enables high agility at low speed.</string>
+</resources>
